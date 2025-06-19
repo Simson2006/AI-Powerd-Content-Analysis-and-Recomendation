@@ -1,5 +1,5 @@
 # Data Analytics Project - 3rd Place 🥉
-This project was submitted for Datalytics and secured *3rd place*.
+This project was submitted for Data analytics and secured *3rd place*.
 
 ## Tools Used
 - Python
