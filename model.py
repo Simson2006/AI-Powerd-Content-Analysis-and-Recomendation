@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # 🧼 Load the cleaned dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("D:\PYTHON\Project\sample_cleaned.csv")
+    df = pd.read_csv("Dataset.csv")
     df['cleaned_content'] = df['title'].fillna('') + ' ' + df['text'].fillna('')
     return df
 
